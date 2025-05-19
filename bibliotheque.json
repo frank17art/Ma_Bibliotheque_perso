@@ -1,0 +1,18 @@
+[
+    {
+        "ID": 1,
+        "Titre": "deesse de la nuit",
+        "Auteur": "nyx",
+        "Ann\u00e9e": 2011,
+        "Lu": true,
+        "Note": 9.0
+    },
+    {
+        "ID": 2,
+        "Titre": "les arbres",
+        "Auteur": "gaia",
+        "Ann\u00e9e": 2001,
+        "Lu": false,
+        "Note": null
+    }
+]
