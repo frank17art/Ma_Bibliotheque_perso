@@ -3,7 +3,7 @@ import bibliotheque as bib
 
 def afficher_menu():
     # Affichage du menu principal de l'application
-    print("\n===== GESTION DE BIBLIOTHÈQUE PERSONNELLE =====")
+    print("\n           GESTION DE BIBLIOTHÈQUE PERSONNELLE          ")
     print("1. Afficher tous les livres")
     print("2. Ajouter un livre")
     print("3. Supprimer un livre")
