@@ -14,5 +14,29 @@
         "Ann\u00e9e": 2001,
         "Lu": false,
         "Note": null
+    },
+    {
+        "ID": 3,
+        "Titre": "born to die",
+        "Auteur": "lana del rey",
+        "Ann\u00e9e": 2013,
+        "Lu": false,
+        "Note": null
+    },
+    {
+        "ID": 4,
+        "Titre": "le petit prince",
+        "Auteur": "antoine de saint exupery",
+        "Ann\u00e9e": 1934,
+        "Lu": false,
+        "Note": null
+    },
+    {
+        "ID": 5,
+        "Titre": "little boy",
+        "Auteur": "sarah marchand",
+        "Ann\u00e9e": 2015,
+        "Lu": false,
+        "Note": null
     }
 ]
