@@ -40,7 +40,7 @@ def sauvegarder_bibliotheque():
 
 
 def afficher_livre(livre):
-    """Affiche les informations d'un livre avec un formatage simple"""
+    """pour afficher les informations d'un livre avec un formatage simple"""
     statut = "Lu" if livre["Lu"] else "Non lu"
     note = f"Note: {livre['Note']}/10" if livre["Note"] is not None else "Pas encore noté"
     print(f"\nID: {livre['ID']}")
@@ -102,7 +102,7 @@ def ajouter_livre():
 
 
 def supprimer_livre():
-    """Supprime un livre de la bibliothèque par son ID"""
+    """pour supprime un livre de la bibliothèque par son ID"""
     print("\n===== SUPPRIMER UN LIVRE =====")
     if not bibliotheque:
         print("La bibliothèque est vide.")
@@ -133,7 +133,7 @@ def supprimer_livre():
 
 
 def rechercher_livre():
-    """Recherche un livre par mot-clé dans le titre ou l'auteur"""
+    """pour rechercher un livre par mot-clé dans le titre ou l'auteur"""
     print("\n===== RECHERCHER UN LIVRE =====")
     if not bibliotheque:
         print("La bibliothèque est vide.")
@@ -152,7 +152,7 @@ def rechercher_livre():
 
 
 def marquer_comme_lu():
-    """Marque un livre comme lu et permet d'ajouter une note"""
+    """pour marquer un livre comme lu et ajouter une note"""
     print("\n===== MARQUER UN LIVRE COMME LU =====")
     if not bibliotheque:
         print("La bibliothèque est vide.")
